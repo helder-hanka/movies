@@ -1,0 +1,9 @@
+footer {
+    background-color: black;
+    padding: 42px;
+    text-align: center;
+}
+
+footer span {
+    color: white;
+}

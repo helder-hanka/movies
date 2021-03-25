@@ -1,0 +1,131 @@
+
+.card img {
+    width: 98%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 6px 5px 7px 3px rgb(5 5 5 / 20%);
+}
+.card {
+text-align: center;
+background-color: #f1f1f1;
+}
+.column h1 {
+margin: auto;
+text-align: center;
+font-size: 1.3em;
+}
+.column h3 {
+    margin: auto;
+    padding: 5PX;
+}
+ .column span {
+    padding-right: 10px;
+    transition: 0.3s;
+}
+.column button:hover {
+    cursor: pointer;
+}
+.title-button button {
+    position: relative;
+    top: 30px;
+    color: red;
+    font-size: 2em;
+    border: none;
+    background-color: #ffffff00;
+}
+
+.buttonLikesDislikes {
+    padding-right: 10px;
+    font-size: 1em;
+    transition: 0.3s;
+    position: relative;
+    bottom: 26px;
+    float: right;
+}
+.buttonLikesDislikes button {
+    margin: 3px;
+    border: none;
+}
+.column hr {
+    border: 0.9px solid #f1efef;
+    opacity: 0.6;
+}
+
+.likes {
+    color: blue;
+}
+
+.dislikes {
+    color: red;
+}
+
+.ListVideosContainer .btnAllVideo, .ListVideosContainer form {
+    margin: 10px;
+}
+
+.containerPagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+  }
+  
+  .user {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #b3e3ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+  }
+  
+  .paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color: #2b2eff;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #2b2eff;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #2b2eff;
+  }
+  
+  .paginationDisabled a {
+    color: grey;
+  }
+
+@media screen and (min-width: 700px) {
+    .card img {
+        width: 400px;
+        height: 530px;
+        border-radius: 10px;
+    }
+    .row {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+}
